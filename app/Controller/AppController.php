@@ -75,7 +75,8 @@ class AppController extends Controller {
     );
 
     public $branchs = [
-        'GRAVATAI', 'S.B.CAMPO'
+        'GRAVATAI', 
+        'S.B.CAMPO'
     ];
 
     public function verificaValidadeToken($usuario_email, $token = null){
