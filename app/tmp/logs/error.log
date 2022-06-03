@@ -1,0 +1,420 @@
+2022-05-26 14:45:18 Error: [BadRequestException] Usuário não logado!
+Request URL: /public/_bke/api/perguntas/ver?id=1&email=respondedor%40gmail.com
+Stack Trace:
+#0 [internal function]: PerguntasController->ver()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PerguntasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PerguntasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 14:49:58 Error: [BadRequestException] Usuário não logado!
+Request URL: /public/_bke/api/respostas/cadastrar_resposta
+Stack Trace:
+#0 [internal function]: RespostasController->cadastrar_resposta()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(RespostasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RespostasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 14:52:50 Error: [BadRequestException] Usuário não logado!
+Request URL: /public/_bke/api/respostas/cadastrar_resposta
+Stack Trace:
+#0 [internal function]: RespostasController->cadastrar_resposta()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(RespostasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RespostasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 14:53:58 Error: [BadRequestException] Usado!
+Request URL: /public/_bke/api/respostas/cadastrar_resposta
+Stack Trace:
+#0 [internal function]: RespostasController->cadastrar_resposta()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(RespostasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RespostasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 14:54:46 Error: [BadRequestException] Usuário não logado!
+Request URL: /public/_bke/api/perguntas/ver?id=1&email=rafael%40bbadvocacia.com
+Stack Trace:
+#0 [internal function]: PerguntasController->ver()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PerguntasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PerguntasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 14:55:06 Error: [BadRequestException] Usuário não logado!
+Request URL: /public/_bke/api/perguntas/ver?id=1&email=rafael%40bbadvocacia.com&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNjUzNTc2MDU0LCJleHAiOjE2NTYxNjgwNTR9.5RnJ7wyJJZ1fvtdt6dDfBfavNHPpaX74dS9Smp2Y9MM
+Stack Trace:
+#0 [internal function]: PerguntasController->ver()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PerguntasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PerguntasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 17:38:13 Error: [BadRequestException] Pergunta não informada
+Request URL: /public/_bke/api/perguntas/cadastrar_gostei
+Stack Trace:
+#0 [internal function]: PerguntasController->cadastrar_gostei()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PerguntasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PerguntasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 17:46:14 Error: [BadRequestException] Usuário não logado!
+Request URL: /public/_bke/api/perguntas/index?email=perguntador%40gmail.com&menu_filtro=all&item_offset=0&page_count=0&itens_per_page=10&query_search=
+Stack Trace:
+#0 [internal function]: PerguntasController->index()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PerguntasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PerguntasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 17:48:26 Error: [BadRequestException] Usuário não logado!
+Request URL: /public/_bke/api/perguntas/index?email=rafael%40bbadvocacia.com&menu_filtro=all&item_offset=0&page_count=0&itens_per_page=10&query_search=
+Stack Trace:
+#0 [internal function]: PerguntasController->index()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PerguntasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PerguntasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 17:58:53 Error: [BadRequestException] Usuário não logado!
+Request URL: /public/_bke/api/perguntas/cadastrar_nao_gostei
+Stack Trace:
+#0 [internal function]: PerguntasController->cadastrar_nao_gostei()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PerguntasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PerguntasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 18:08:27 Error: [BadRequestException] Usuário não logado!
+Request URL: /public/_bke/api/perguntas/index?email=perguntador%40gmail.com&menu_filtro=all&item_offset=0&page_count=0&itens_per_page=10&query_search=
+Stack Trace:
+#0 [internal function]: PerguntasController->index()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PerguntasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PerguntasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 18:08:56 Error: [BadRequestException] Usuário não logado!
+Request URL: /public/_bke/api/perguntas/index?email=perguntador%40gmail.com&menu_filtro=all&item_offset=0&page_count=0&itens_per_page=10&query_search=
+Stack Trace:
+#0 [internal function]: PerguntasController->index()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PerguntasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PerguntasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 18:09:18 Error: [BadRequestException] Usuário não logado!
+Request URL: /public/_bke/api/perguntas/index?email=perguntador%40gmail.com&menu_filtro=all&item_offset=0&page_count=0&itens_per_page=10&query_search=
+Stack Trace:
+#0 [internal function]: PerguntasController->index()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PerguntasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PerguntasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 18:10:59 Error: [BadRequestException] Email não informado
+Request URL: /public/_bke/api/perguntas/cadastrar_gostei
+Stack Trace:
+#0 [internal function]: PerguntasController->cadastrar_gostei()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PerguntasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PerguntasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 19:23:37 Error: [MissingControllerException] Controller class UfsController could not be found.
+Exception Attributes: array (
+  'class' => 'UfsController',
+  'plugin' => NULL,
+)
+Request URL: /public/_bke/api/ufs/index
+Stack Trace:
+#0 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-05-26 19:23:47 Error: [MissingControllerException] Controller class UfsController could not be found.
+Exception Attributes: array (
+  'class' => 'UfsController',
+  'plugin' => NULL,
+)
+Request URL: /public/_bke/api/ufs/index
+Stack Trace:
+#0 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-05-26 19:23:50 Error: [MissingControllerException] Controller class UfsController could not be found.
+Exception Attributes: array (
+  'class' => 'UfsController',
+  'plugin' => NULL,
+)
+Request URL: /public/_bke/api/ufs/index
+Stack Trace:
+#0 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-05-26 19:23:55 Error: [MissingControllerException] Controller class UfsController could not be found.
+Exception Attributes: array (
+  'class' => 'UfsController',
+  'plugin' => NULL,
+)
+Request URL: /public/_bke/api/ufs/index
+Stack Trace:
+#0 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-05-26 19:24:11 Error: [MissingControllerException] Controller class UfsController could not be found.
+Exception Attributes: array (
+  'class' => 'UfsController',
+  'plugin' => NULL,
+)
+Request URL: /public/_bke/api/ufs/index
+Stack Trace:
+#0 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-05-26 19:24:27 Error: [MissingControllerException] Controller class UfsController could not be found.
+Exception Attributes: array (
+  'class' => 'UfsController',
+  'plugin' => NULL,
+)
+Request URL: /public/_bke/api/ufs/index
+Stack Trace:
+#0 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-05-26 19:24:50 Error: [MissingControllerException] Controller class UfsController could not be found.
+Exception Attributes: array (
+  'class' => 'UfsController',
+  'plugin' => NULL,
+)
+Request URL: /public/_bke/api/ufs/index
+Stack Trace:
+#0 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-05-26 19:24:59 Error: [MissingControllerException] Controller class UfsController could not be found.
+Exception Attributes: array (
+  'class' => 'UfsController',
+  'plugin' => NULL,
+)
+Request URL: /public/_bke/api/ufs/index
+Stack Trace:
+#0 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-05-26 19:47:30 Error: [ParseError] syntax error, unexpected 'orderBy' (T_STRING), expecting ',' or ')'
+Request URL: /public/_bke/api/cidades/index?uf=AC
+Stack Trace:
+#0 [internal function]: App::load('CidadesControll...')
+#1 [internal function]: spl_autoload_call('CidadesControll...')
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(266): class_exists('CidadesControll...')
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-05-26 20:37:16 Error: [BadRequestException] Título não informado
+Request URL: /public/_bke/api/perguntas/cadastrar_pergunta
+Stack Trace:
+#0 [internal function]: PerguntasController->cadastrar_pergunta()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PerguntasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PerguntasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 20:37:19 Error: [BadRequestException] Título não informado
+Request URL: /public/_bke/api/perguntas/cadastrar_pergunta
+Stack Trace:
+#0 [internal function]: PerguntasController->cadastrar_pergunta()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PerguntasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PerguntasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 20:37:25 Error: [BadRequestException] Título não informado
+Request URL: /public/_bke/api/perguntas/cadastrar_pergunta
+Stack Trace:
+#0 [internal function]: PerguntasController->cadastrar_pergunta()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PerguntasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PerguntasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-26 20:53:43 Error: [BadRequestException] Título não informado
+Request URL: /public/_bke/api/perguntas/cadastrar_pergunta
+Stack Trace:
+#0 [internal function]: PerguntasController->cadastrar_pergunta()
+#1 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PerguntasController), Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PerguntasController), Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-05-27 17:10:02 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /public/_bke/api/
+Stack Trace:
+#0 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-05-27 17:10:07 Error: [MissingControllerException] Controller class DadosController could not be found.
+Exception Attributes: array (
+  'class' => 'DadosController',
+  'plugin' => NULL,
+)
+Request URL: /public/_bke/api/dados/datas
+Stack Trace:
+#0 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-05-27 17:18:50 Error: [ParseError] syntax error, unexpected '$meses' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /public/_bke/api/dados/datas
+Stack Trace:
+#0 [internal function]: App::load('AppController')
+#1 /var/www/app/public/_bke/api/app/Controller/DadosController.php(2): spl_autoload_call('AppController')
+#2 /var/www/app/public/_bke/api/lib/Cake/Core/App.php(567): include('/var/www/app/pu...')
+#3 [internal function]: App::load('DadosController')
+#4 [internal function]: spl_autoload_call('DadosController')
+#5 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(266): class_exists('DadosController')
+#6 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#7 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2022-05-27 17:18:50 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2022-05-27 17:18:50 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /public/_bke/api/dados/datas
+Stack Trace:
+#0 /var/www/app/public/_bke/api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /var/www/app/public/_bke/api/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2022-05-27 17:25:15 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /public/_bke/api/
+Stack Trace:
+#0 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-05-27 17:25:20 Error: [MissingActionException] Action DadosController::dados() could not be found.
+Exception Attributes: array (
+  'controller' => 'DadosController',
+  'action' => 'dados',
+)
+Request URL: /public/_bke/api/dados/dados/2022-05-23
+Stack Trace:
+#0 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DadosController), Object(CakeRequest))
+#2 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2022-05-27 18:13:58 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+Request URL: /public/_bke/api/dados/dados/2022-05-27
+Stack Trace:
+#0 [internal function]: App::load('DadosController')
+#1 [internal function]: spl_autoload_call('DadosController')
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(266): class_exists('DadosController')
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-05-27 18:14:26 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+Request URL: /public/_bke/api/dados/dados/2022-05-27
+Stack Trace:
+#0 [internal function]: App::load('DadosController')
+#1 [internal function]: spl_autoload_call('DadosController')
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(266): class_exists('DadosController')
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-05-27 18:14:36 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+Request URL: /public/_bke/api/dados/dados/2022-05-27
+Stack Trace:
+#0 [internal function]: App::load('DadosController')
+#1 [internal function]: spl_autoload_call('DadosController')
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(266): class_exists('DadosController')
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-05-27 18:15:16 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+Request URL: /public/_bke/api/dados/dados/2022-05-27
+Stack Trace:
+#0 [internal function]: App::load('DadosController')
+#1 [internal function]: spl_autoload_call('DadosController')
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(266): class_exists('DadosController')
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-05-31 00:03:37 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting '{'
+Request URL: /public/_bke/api/dados/dados/2022-05-30
+Stack Trace:
+#0 [internal function]: App::load('DadosController')
+#1 [internal function]: spl_autoload_call('DadosController')
+#2 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(266): class_exists('DadosController')
+#3 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-06-01 15:16:25 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution',
+  'enabled' => true,
+)
+Request URL: /public/_bke/api/dados/dados/2022-06-01
+Stack Trace:
+#0 /var/www/app/public/_bke/api/lib/Cake/Model/Datasource/DboSource.php(278): Mysql->connect()
+#1 /var/www/app/public/_bke/api/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Model/Model.php(3659): ConnectionManager::getDataSource('default')
+#3 /var/www/app/public/_bke/api/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/app/public/_bke/api/lib/Cake/Model/Model.php(3686): Model->setSource('dados')
+#5 /var/www/app/public/_bke/api/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#6 /var/www/app/public/_bke/api/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#7 /var/www/app/public/_bke/api/app/Controller/DadosController.php(43): Model->find('all', Array)
+#8 [internal function]: DadosController->dados('2022-06-01')
+#9 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(DadosController), Array)
+#10 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DadosController), Object(CakeRequest))
+#12 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2022-06-01 15:16:32 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution',
+  'enabled' => true,
+)
+Request URL: /public/_bke/api/dados/datas
+Stack Trace:
+#0 /var/www/app/public/_bke/api/lib/Cake/Model/Datasource/DboSource.php(278): Mysql->connect()
+#1 /var/www/app/public/_bke/api/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Model/Model.php(3659): ConnectionManager::getDataSource('default')
+#3 /var/www/app/public/_bke/api/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/app/public/_bke/api/lib/Cake/Model/Model.php(3686): Model->setSource('dados')
+#5 /var/www/app/public/_bke/api/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#6 /var/www/app/public/_bke/api/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#7 /var/www/app/public/_bke/api/app/Controller/DadosController.php(8): Model->find('all', Array)
+#8 [internal function]: DadosController->datas()
+#9 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(DadosController), Array)
+#10 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DadosController), Object(CakeRequest))
+#12 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2022-06-01 15:16:41 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known',
+  'enabled' => true,
+)
+Request URL: /public/_bke/api/dados/datas
+Stack Trace:
+#0 /var/www/app/public/_bke/api/lib/Cake/Model/Datasource/DboSource.php(278): Mysql->connect()
+#1 /var/www/app/public/_bke/api/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/app/public/_bke/api/lib/Cake/Model/Model.php(3659): ConnectionManager::getDataSource('default')
+#3 /var/www/app/public/_bke/api/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/app/public/_bke/api/lib/Cake/Model/Model.php(3686): Model->setSource('dados')
+#5 /var/www/app/public/_bke/api/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#6 /var/www/app/public/_bke/api/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#7 /var/www/app/public/_bke/api/app/Controller/DadosController.php(8): Model->find('all', Array)
+#8 [internal function]: DadosController->datas()
+#9 /var/www/app/public/_bke/api/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(DadosController), Array)
+#10 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DadosController), Object(CakeRequest))
+#12 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
