@@ -74,6 +74,10 @@ class AppController extends Controller {
         'Sábado'
     );
 
+    public $branchs = [
+        'GRAVATAI', 'S.B.CAMPO'
+    ];
+
     public function verificaValidadeToken($usuario_email, $token = null){
 
         $this->loadModel('Usuario');

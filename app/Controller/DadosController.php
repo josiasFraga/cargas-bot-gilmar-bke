@@ -61,12 +61,20 @@ class DadosController extends AppController {
 
                 if ( !isset($dados_arr) || count($dados_arr)  == 0 ) {
                     $dados_arr = array_filter($dados_json, function($item){
-                        return isset($item['status_text']) && $item['status_text'] == 'finalizada';
+                        return 
+                        isset($item['status_text']) 
+                        && $item['status_text'] == 'finalizada' 
+                        && isset($item['filial_text']) 
+                        && in_array($item['filial_text'], $this->branchs);
                     });
                     continue;
                 }
                 $dados_arr = array_merge($dados_arr, array_filter($dados_json, function($item){
-                    return isset($item['status_text']) && $item['status_text'] == 'finalizada';
+                    return 
+                        isset($item['status_text']) 
+                        && $item['status_text'] == 'finalizada'
+                        && isset($item['filial_text']) 
+                        && in_array($item['filial_text'], $this->branchs);;
                 }));
             }
             
