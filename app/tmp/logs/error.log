@@ -418,3 +418,39 @@ Stack Trace:
 #11 /var/www/app/public/_bke/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DadosController), Object(CakeRequest))
 #12 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
+2022-11-21 13:40:14 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /public/_bke/api/Usuarios/aluno?usuario_id=112&aluno_id=112
+Stack Trace:
+#0 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-11-21 13:40:14 Error: [MissingControllerException] Controller class ProjetosModelosController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetosModelosController',
+  'plugin' => NULL,
+)
+Request URL: /public/_bke/api/ProjetosModelos/listar_tipos
+Stack Trace:
+#0 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-11-21 13:40:14 Error: [MissingControllerException] Controller class CursosController could not be found.
+Exception Attributes: array (
+  'class' => 'CursosController',
+  'plugin' => NULL,
+)
+Request URL: /public/_bke/api/Cursos?usuario_id=112
+Stack Trace:
+#0 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-11-21 13:40:14 Error: [MissingControllerException] Controller class ConfiguracoesController could not be found.
+Exception Attributes: array (
+  'class' => 'ConfiguracoesController',
+  'plugin' => NULL,
+)
+Request URL: /public/_bke/api/Configuracoes/listar
+Stack Trace:
+#0 /var/www/app/public/_bke/api/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

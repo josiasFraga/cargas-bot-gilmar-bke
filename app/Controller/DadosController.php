@@ -114,4 +114,170 @@ class DadosController extends AppController {
         return new CakeResponse(array('type' => 'json', 'body' => json_encode(['status' => 'ok', 'dados' => $dados_arr])));
 
 	}
+
+	public function dados_first($data = null) {
+        $this->layout = 'ajax';
+        $this->loadModel('Dado');
+        //debug($data);
+        $dados = $this->Dado->find("first",[
+        //$dados = $this->Dado->find('first',[
+            'conditions' => [
+                'DATE(Dado.created)' => $data,
+                'and' => [
+                    ['Dado.dados like' => '%"_type": "custom.chamada_object"%'],
+                    //['Dado.dados like' => '%"status_text": "finalizada"%'],
+                ]
+                
+            ],
+            "limit" => 1,
+            'order' => [
+                'DATE(Dado.created) ASC'
+            ]
+            
+        ]);
+        debug(json_decode($dados["Dado"]["dados"], true));
+        die();
+        $dados_arr = [];
+        if ( count($dados) > 0  ) {
+            //$dados_arr = json_decode($dados['Dado']['dados'], true);
+            foreach( $dados as $key => $dado ){
+                $dados_json = json_decode($dado['Dado']['dados'], true);
+
+                if ( !isset($dados_arr) || count($dados_arr)  == 0 ) {
+                    $dados_arr = array_filter($dados_json, function($item){
+                        return 
+                        isset($item['status_text']) 
+                        && $item['status_text'] == 'finalizada' 
+                        && isset($item['filial_text']) 
+                        && in_array($item['filial_text'], $this->branchs);
+                    });
+                    continue;
+                }
+                $dados_arr = array_merge($dados_arr, array_filter($dados_json, function($item){
+                    return 
+                        isset($item['status_text']) 
+                        && $item['status_text'] == 'finalizada'
+                        && isset($item['filial_text']) 
+                        && in_array($item['filial_text'], $this->branchs);;
+                }));
+            }
+            
+        }
+
+        if ( count($dados_arr) > 0 ) {
+            $dados_arr = array_map("unserialize", array_unique(array_map("serialize", $dados_arr)));
+            $dados_arr = array_map(function($item){
+                /*$dados_arr_2 = array_map(function($subitem){
+
+                    $json_text_array = json_decode($subitem['json_text'],true);
+                    $subitem['json_text'] = $json_text_array;
+                    return $subitem;
+
+                },$item);*/
+
+                $item['json_text'] = json_decode($item['json_text'],true);
+
+                return $item;
+            }, $dados_arr);
+        }
+
+        /*$dados = $this->Dado->find('first',[
+            'conditions' => [
+                'DATE(Dado.created)' => $data,
+                'Dado.dados like' => '%90789%' 
+            ],
+            'order' => [
+                'DATE(Dado.created) DESC'
+            ]
+            
+        ]);
+
+        if ( count($dados) > 0  ) {
+            $dados_arr = json_decode($dados['Dado']['dados'], true);
+        }*/
+        return new CakeResponse(array('type' => 'json', 'body' => json_encode(['status' => 'ok', 'dados' => $dados_arr])));
+
+	}
+
+	public function dados_all($data = null) {
+        $this->layout = 'ajax';
+        $this->loadModel('Dado');
+        //debug($data);
+        $dados = $this->Dado->find('all',[
+        //$dados = $this->Dado->find('first',[
+            'conditions' => [
+                'id' => 1043,
+                'DATE(Dado.created)' => $data,
+                'and' => [
+                    ['Dado.dados like' => '%"_type": "custom.chamada_object"%'],
+                    //['Dado.dados like' => '%"status_text": "finalizada"%'],
+                ]
+                
+            ],
+            'order' => [
+                'Dado.created ASC'
+            ]
+            
+        ]);
+        $dados_arr = [];
+        if ( count($dados) > 0  ) {
+            //$dados_arr = json_decode($dados['Dado']['dados'], true);
+            foreach( $dados as $key => $dado ){
+                $dados_json = json_decode($dado['Dado']['dados'], true);
+
+                if ( !isset($dados_arr) || count($dados_arr)  == 0 ) {
+                    $dados_arr = array_filter($dados_json, function($item){
+                        return 
+                        //isset($item['status_text']) 
+                        //&& $item['status_text'] == 'finalizada' 
+                        isset($item['filial_text']) 
+                        && in_array($item['filial_text'], $this->branchs);
+                    });
+                    continue;
+                }
+                $dados_arr = array_merge($dados_arr, array_filter($dados_json, function($item){
+                    return 
+                        //isset($item['status_text']) 
+                        //&& $item['status_text'] == 'finalizada'
+                        isset($item['filial_text']) 
+                        && in_array($item['filial_text'], $this->branchs);;
+                }));
+            }
+            
+        }
+
+        if ( count($dados_arr) > 0 ) {
+            $dados_arr = array_map("unserialize", array_unique(array_map("serialize", $dados_arr)));
+            $dados_arr = array_map(function($item){
+                /*$dados_arr_2 = array_map(function($subitem){
+
+                    $json_text_array = json_decode($subitem['json_text'],true);
+                    $subitem['json_text'] = $json_text_array;
+                    return $subitem;
+
+                },$item);*/
+
+                $item['json_text'] = json_decode($item['json_text'],true);
+
+                return $item;
+            }, $dados_arr);
+        }
+
+        /*$dados = $this->Dado->find('first',[
+            'conditions' => [
+                'DATE(Dado.created)' => $data,
+                'Dado.dados like' => '%90789%' 
+            ],
+            'order' => [
+                'DATE(Dado.created) DESC'
+            ]
+            
+        ]);
+
+        if ( count($dados) > 0  ) {
+            $dados_arr = json_decode($dados['Dado']['dados'], true);
+        }*/
+        return new CakeResponse(array('type' => 'json', 'body' => json_encode(['status' => 'ok', 'dados' => $dados_arr])));
+
+	}
 }
